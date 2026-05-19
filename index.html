@@ -35,6 +35,20 @@
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
+                    <button onclick="copyText('exclave://vless?eNpTYWBgMLQ01jMyBmJDcz1Dk827GRkYllqmmZsbmJgY6JpbWBrpmiSlmOhaJhqk6FqmJRobJJommxqbm-Xl5z0tSf4Aohobi1ITczJLflYmZuTn6yXnv13j65TjkeRZZZKRpVsamOHiaGqanJ7vWuafE-GbE1HpZRlZmeXinVReYlgZappqvCE5oyg_9ylDI8g0Bg6gq8CMDKPc0h8MKKCRCUhMebtgz9vt28HkLgUFQ1OH1IrknMSy1LKCPJAiAMc3R4I')" class="text-gray-300 hover:text-blue-600 transition-colors"><i class="far fa-copy text-lg"></i></button>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-2xl mb-6 border border-gray-50">
+                    <p class="text-[10px] font-mono text-slate-400 break-all leading-relaxed line-clamp-2">exclave://vless?eNpTYWBgMLQ01jMyBmJDcz1Dk827GRkYllqmmZsbmJgY6JpbWBrpmiSlmOhaJhqk6FqmJRobJJommxqbm-Xl5z0tSf4Aohobi1ITczJLflYmZuTn6yXnv13j65TjkeRZZZKRpVsamOHiaGqanJ7vWuafE-GbE1HpZRlZmeXinVReYlgZappqvCE5oyg_9ylDI8g0Bg6gq8CMDKPc0h8MKKCRCUhMebtgz9vt28HkLgUFQ1OH1IrknMSy1LKCPJAiAMc3R4I</p>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="copyText('exclave://vless?eNpTYWBgMLQ01jMyBmJDcz1Dk827GRkYllqmmZsbmJgY6JpbWBrpmiSlmOhaJhqk6FqmJRobJJommxqbm-Xl5z0tSf4Aohobi1ITczJLflYmZuTn6yXnv13j65TjkeRZZZKRpVsamOHiaGqanJ7vWuafE-GbE1HpZRlZmeXinVReYlgZappqvCE5oyg_9ylDI8g0Bg6gq8CMDKPc0h8MKKCRCUhMebtgz9vt28HkLgUFQ1OH1IrknMSy1LKCPJAiAMc3R4I')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
+                    <button onclick="toggleQR('q0', 'exclave://vless?eNpTYWBgMLQ01jMyBmJDcz1Dk827GRkYllqmmZsbmJgY6JpbWBrpmiSlmOhaJhqk6FqmJRobJJommxqbm-Xl5z0tSf4Aohobi1ITczJLflYmZuTn6yXnv13j65TjkeRZZZKRpVsamOHiaGqanJ7vWuafE-GbE1HpZRlZmeXinVReYlgZappqvCE5oyg_9ylDI8g0Bg6gq8CMDKPc0h8MKKCRCUhMebtgz9vt28HkLgUFQ1OH1IrknMSy1LKCPJAiAMc3R4I')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                </div>
+                <div id="q0" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div>
+            <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
                     <button onclick="copyText('exclave://vless?eNpTYWBgMLQw1TM0NdKzNNIz27KbkYFhabJFimGyWYqxrrGFRZquiUVasm6iRZqBbmqKpUGKpalpioGlWV5-3tOS5A8gqrGxKDUxJ7PkZ25ihV7R1zV5Acmh3pUpFflBnmZm_sYlIZb-JoHOUQU-Wf5OZdnuxZkR7uYFLhGGTk7lZkmJFqaG5papxgYpJmnJm5IzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0MshWhgyj3NIfDCigkQlITH67YM_b7dvB5C4FQ1OH1IrknMSy1LKCPJAaAPXzUhU')" class="text-gray-300 hover:text-blue-600 transition-colors"><i class="far fa-copy text-lg"></i></button>
                 </div>
                 <div class="bg-slate-50 p-4 rounded-2xl mb-6 border border-gray-50">
@@ -42,9 +56,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgMLQw1TM0NdKzNNIz27KbkYFhabJFimGyWYqxrrGFRZquiUVasm6iRZqBbmqKpUGKpalpioGlWV5-3tOS5A8gqrGxKDUxJ7PkZ25ihV7R1zV5Acmh3pUpFflBnmZm_sYlIZb-JoHOUQU-Wf5OZdnuxZkR7uYFLhGGTk7lZkmJFqaG5papxgYpJmnJm5IzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0MshWhgyj3NIfDCigkQlITH67YM_b7dvB5C4FQ1OH1IrknMSy1LKCPJAaAPXzUhU')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q0', 'exclave://vless?eNpTYWBgMLQw1TM0NdKzNNIz27KbkYFhabJFimGyWYqxrrGFRZquiUVasm6iRZqBbmqKpUGKpalpioGlWV5-3tOS5A8gqrGxKDUxJ7PkZ25ihV7R1zV5Acmh3pUpFflBnmZm_sYlIZb-JoHOUQU-Wf5OZdnuxZkR7uYFLhGGTk7lZkmJFqaG5papxgYpJmnJm5IzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0MshWhgyj3NIfDCigkQlITH67YM_b7dvB5C4FQ1OH1IrknMSy1LKCPJAaAPXzUhU')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q1', 'exclave://vless?eNpTYWBgMLQw1TM0NdKzNNIz27KbkYFhabJFimGyWYqxrrGFRZquiUVasm6iRZqBbmqKpUGKpalpioGlWV5-3tOS5A8gqrGxKDUxJ7PkZ25ihV7R1zV5Acmh3pUpFflBnmZm_sYlIZb-JoHOUQU-Wf5OZdnuxZkR7uYFLhGGTk7lZkmJFqaG5papxgYpJmnJm5IzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0MshWhgyj3NIfDCigkQlITH67YM_b7dvB5C4FQ1OH1IrknMSy1LKCPJAaAPXzUhU')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q0" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q1" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -56,9 +70,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://ss?eNpVj71OwzAUhU0HxIOwOrHdpE2wLJDYERMsLP6jiZo4UWyn6ZhXYGRiZEeoEvAwXRgrMTKSRCy90vnule4ZzjkFAJwPwkkcEIwDvETDfv88AaDvnfwxlfnu-5GjwNlgnQ6QkdL_gqOZbM-Zc7W9CEMXlDq852Z1zXNyePk67F4nvu1nLWn4FtaFX-WGlpXSbKOFreRaO1pzl7EwjaROF2oOkwgpGM0JgqlIBURLoQRHOCGYhJdaPTASLxAtfccQteu8hlI3Dra6yR-3zDVe06yyjlkbFI3qNoEsvKCusNSanB1F1Z0seKvvbm8AmA1tnqa0u4kfOL76_7e1Gbv-AUFjbL8')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q1', 'exclave://ss?eNpVj71OwzAUhU0HxIOwOrHdpE2wLJDYERMsLP6jiZo4UWyn6ZhXYGRiZEeoEvAwXRgrMTKSRCy90vnule4ZzjkFAJwPwkkcEIwDvETDfv88AaDvnfwxlfnu-5GjwNlgnQ6QkdL_gqOZbM-Zc7W9CEMXlDq852Z1zXNyePk67F4nvu1nLWn4FtaFX-WGlpXSbKOFreRaO1pzl7EwjaROF2oOkwgpGM0JgqlIBURLoQRHOCGYhJdaPTASLxAtfccQteu8hlI3Dra6yR-3zDVe06yyjlkbFI3qNoEsvKCusNSanB1F1Z0seKvvbm8AmA1tnqa0u4kfOL76_7e1Gbv-AUFjbL8')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q2', 'exclave://ss?eNpVj71OwzAUhU0HxIOwOrHdpE2wLJDYERMsLP6jiZo4UWyn6ZhXYGRiZEeoEvAwXRgrMTKSRCy90vnule4ZzjkFAJwPwkkcEIwDvETDfv88AaDvnfwxlfnu-5GjwNlgnQ6QkdL_gqOZbM-Zc7W9CEMXlDq852Z1zXNyePk67F4nvu1nLWn4FtaFX-WGlpXSbKOFreRaO1pzl7EwjaROF2oOkwgpGM0JgqlIBURLoQRHOCGYhJdaPTASLxAtfccQteu8hlI3Dra6yR-3zDVe06yyjlkbFI3qNoEsvKCusNSanB1F1Z0seKvvbm8AmA1tnqa0u4kfOL76_7e1Gbv-AUFjbL8')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q1" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q2" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -70,9 +84,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpVj7FOwkAAhk8nX8DdwfUud0fvet2sBAwSaVDKwNb2rkLpXRGvCGx9Bl_Axc2JhcT4Bj4HI4mDg24Cm__w5Rv-5M9_DgAgTCDCMaKEI76qnwLwGkuZSiwFpLGS0KGqBgUmHKaMR5Q43KFu-nmk87HSLhdzyhjxJnn5iExkRzOF8NRa5DfuygEul9dB6cEQxrCDB53QT8OrccZscl_3s147SBv6VtjkyxRmU1VTFeUj-5vkRSkTaaD2IGFoZ2gRGanmyKjvN-2YpyCysN6O0yxvNZfippcFXj_ERbO17Ppd_8G9nLR0rV-4Il4lw2mhN6DaL4CT3eGDDKkuf8C_VMc7PG9fPrbr9YHvZ4RdqHmSRzM1m5h95w813WSt')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q2', 'exclave://vless?eNpVj7FOwkAAhk8nX8DdwfUud0fvet2sBAwSaVDKwNb2rkLpXRGvCGx9Bl_Axc2JhcT4Bj4HI4mDg24Cm__w5Rv-5M9_DgAgTCDCMaKEI76qnwLwGkuZSiwFpLGS0KGqBgUmHKaMR5Q43KFu-nmk87HSLhdzyhjxJnn5iExkRzOF8NRa5DfuygEul9dB6cEQxrCDB53QT8OrccZscl_3s147SBv6VtjkyxRmU1VTFeUj-5vkRSkTaaD2IGFoZ2gRGanmyKjvN-2YpyCysN6O0yxvNZfippcFXj_ERbO17Ppd_8G9nLR0rV-4Il4lw2mhN6DaL4CT3eGDDKkuf8C_VMc7PG9fPrbr9YHvZ4RdqHmSRzM1m5h95w813WSt')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q3', 'exclave://vless?eNpVj7FOwkAAhk8nX8DdwfUud0fvet2sBAwSaVDKwNb2rkLpXRGvCGx9Bl_Axc2JhcT4Bj4HI4mDg24Cm__w5Rv-5M9_DgAgTCDCMaKEI76qnwLwGkuZSiwFpLGS0KGqBgUmHKaMR5Q43KFu-nmk87HSLhdzyhjxJnn5iExkRzOF8NRa5DfuygEul9dB6cEQxrCDB53QT8OrccZscl_3s147SBv6VtjkyxRmU1VTFeUj-5vkRSkTaaD2IGFoZ2gRGanmyKjvN-2YpyCysN6O0yxvNZfippcFXj_ERbO17Ppd_8G9nLR0rV-4Il4lw2mhN6DaL4CT3eGDDKkuf8C_VMc7PG9fPrbr9YHvZ4RdqHmSRzM1m5h95w813WSt')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q2" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q3" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -84,10 +98,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpVjjFOwzAARS0mjtGB1ZbtOI6zgYSgQmVEoG6O7SgRqWPcJA5jzsAFWNjYKlGp4jodI3UEsdCw8Yf3lyf9fwYAEAQRHiGKESEfPzMA3hQRWJtMwIiZHDKVSJjqmMNcUhkznCSZjG1t9406TDUM3siqbL5DCEg6Vxmk6vHdCneLCbl-vCoe_N1yHqn00vfhxtl2UVw0T5Q-53O1uCc2aCm5jlOVcZEpgTeq8PVqD_qmWkPvfA-7cl3WFrbaMbbpW30Ap8fn0zgo6Kr9Av8ynBzxMr5-jtvtH3czws9NryrZmc7ZyfkFG6dV9A')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q3', 'exclave://vless?eNpVjjFOwzAARS0mjtGB1ZbtOI6zgYSgQmVEoG6O7SgRqWPcJA5jzsAFWNjYKlGp4jodI3UEsdCw8Yf3lyf9fwYAEAQRHiGKESEfPzMA3hQRWJtMwIiZHDKVSJjqmMNcUhkznCSZjG1t9406TDUM3siqbL5DCEg6Vxmk6vHdCneLCbl-vCoe_N1yHqn00vfhxtl2UVw0T5Q-53O1uCc2aCm5jlOVcZEpgTeq8PVqD_qmWkPvfA-7cl3WFrbaMbbpW30Ap8fn0zgo6Kr9Av8ynBzxMr5-jtvtH3czws9NryrZmc7ZyfkFG6dV9A')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q4', 'exclave://vless?eNpVjjFOwzAARS0mjtGB1ZbtOI6zgYSgQmVEoG6O7SgRqWPcJA5jzsAFWNjYKlGp4jodI3UEsdCw8Yf3lyf9fwYAEAQRHiGKESEfPzMA3hQRWJtMwIiZHDKVSJjqmMNcUhkznCSZjG1t9406TDUM3siqbL5DCEg6Vxmk6vHdCneLCbl-vCoe_N1yHqn00vfhxtl2UVw0T5Q-53O1uCc2aCm5jlOVcZEpgTeq8PVqD_qmWkPvfA-7cl3WFrbaMbbpW30Ap8fn0zgo6Kr9Av8ynBzxMr5-jtvtH3czws9NryrZmc7ZyfkFG6dV9A')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q3" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div>
+                <div id="q4" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
@@ -98,10 +112,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgMDQ10rOw1DMyMdEzNN-0m5GBYWmKqZGlsVlikq6RgaWhrkmacaKuhXmyka5ZkoFRomVqkpFBimleft7TkuQPIKqxsSg1MSez5Gd2Zl5-QX5mcbZe0dc1uRllIea6eaElEYnhReWGEWnmXrlOxU4GIeVZJrqJOR7mxrnpxX4mAVFVBkaWaRYm5smGpoZplmYGlhuTM4ryc58yVJTkFOsWFRRV6JZlFmfm5-mWphSYmGyuKE35wMABdDnIboYMo9zSHwwooJEJSEx-u2DP2-2rweQ6BUMzh9SK5JzEstSygjyQGgDURlPX')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q4', 'exclave://vless?eNpTYWBgMDQ10rOw1DMyMdEzNN-0m5GBYWmKqZGlsVlikq6RgaWhrkmacaKuhXmyka5ZkoFRomVqkpFBimleft7TkuQPIKqxsSg1MSez5Gd2Zl5-QX5mcbZe0dc1uRllIea6eaElEYnhReWGEWnmXrlOxU4GIeVZJrqJOR7mxrnpxX4mAVFVBkaWaRYm5smGpoZplmYGlhuTM4ryc58yVJTkFOsWFRRV6JZlFmfm5-mWphSYmGyuKE35wMABdDnIboYMo9zSHwwooJEJSEx-u2DP2-2rweQ6BUMzh9SK5JzEstSygjyQGgDURlPX')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q5', 'exclave://vless?eNpTYWBgMDQ10rOw1DMyMdEzNN-0m5GBYWmKqZGlsVlikq6RgaWhrkmacaKuhXmyka5ZkoFRomVqkpFBimleft7TkuQPIKqxsSg1MSez5Gd2Zl5-QX5mcbZe0dc1uRllIea6eaElEYnhReWGEWnmXrlOxU4GIeVZJrqJOR7mxrnpxX4mAVFVBkaWaRYm5smGpoZplmYGlhuTM4ryc58yVJTkFOsWFRRV6JZlFmfm5-mWphSYmGyuKE35wMABdDnIboYMo9zSHwwooJEJSEx-u2DP2-2rweQ6BUMzh9SK5JzEstSygjyQGgDURlPX')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q4" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div>
+                <div id="q5" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
@@ -112,9 +126,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgsDTSMzS00DM0MtOz2L6bkYFhqXGyhWGyuaGZrklaiqmuoWGaoa5FolGyrqmRqYmBQaK5oYllal5-3tOS5A8gqrGxKDUxJ7PkZ3JOfmlKckqebq6lrqGpHpClV5mYl5JaoZeX-mVNfFGBv693lq9BXrabs1dipUGYaXBpWUZ4mEdgdpGpYaRXUnBlpFGgQbqjSWNyRlF-7lOGipKcYt2igqIK3bLM4sz8PN3SlAITk80VpSkfGDiATgfZzpBhlFv6gwEFNDIBiclvF-x5u30XmNyhYGjmkFqRnJNYllpWkAdSAwAevFSp')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q5', 'exclave://vless?eNpTYWBgsDTSMzS00DM0MtOz2L6bkYFhqXGyhWGyuaGZrklaiqmuoWGaoa5FolGyrqmRqYmBQaK5oYllal5-3tOS5A8gqrGxKDUxJ7PkZ3JOfmlKckqebq6lrqGpHpClV5mYl5JaoZeX-mVNfFGBv693lq9BXrabs1dipUGYaXBpWUZ4mEdgdpGpYaRXUnBlpFGgQbqjSWNyRlF-7lOGipKcYt2igqIK3bLM4sz8PN3SlAITk80VpSkfGDiATgfZzpBhlFv6gwEFNDIBiclvF-x5u30XmNyhYGjmkFqRnJNYllpWkAdSAwAevFSp')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q6', 'exclave://vless?eNpTYWBgsDTSMzS00DM0MtOz2L6bkYFhqXGyhWGyuaGZrklaiqmuoWGaoa5FolGyrqmRqYmBQaK5oYllal5-3tOS5A8gqrGxKDUxJ7PkZ3JOfmlKckqebq6lrqGpHpClV5mYl5JaoZeX-mVNfFGBv693lq9BXrabs1dipUGYaXBpWUZ4mEdgdpGpYaRXUnBlpFGgQbqjSWNyRlF-7lOGipKcYt2igqIK3bLM4sz8PN3SlAITk80VpSkfGDiATgfZzpBhlFv6gwEFNDIBiclvF-x5u30XmNyhYGjmkFqRnJNYllpWkAdSAwAevFSp')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q5" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q6" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -126,9 +140,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpVjrFKxDAcxoOTD-KakrahaTblQEFBxKHILdL8k14LvbSXpiE39hV8AhcnXfQGF1_GoWPhxnPz6uY3_L7lB993hhDiNAh5GkRhGqQf368IvSREJEAThqNYAqYkSTGXBcFc0JxzIVhMCt3o0cJ-rmEwKq8r-6OVBaWtMhikDqCZ3jYP22txdXH7SO62y8vsnjnBcp3JxU20LL3yHZPZCmK30YSHFAqIcpIWI5SmWY_I27rDpjUeu6qrGo172VK6873co9Pj83kcldG6P6B_GU6OeJqev6bP3R_fQ3auPNS5U67Vs_ILG5xWYw')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q6', 'exclave://vless?eNpVjrFKxDAcxoOTD-KakrahaTblQEFBxKHILdL8k14LvbSXpiE39hV8AhcnXfQGF1_GoWPhxnPz6uY3_L7lB993hhDiNAh5GkRhGqQf368IvSREJEAThqNYAqYkSTGXBcFc0JxzIVhMCt3o0cJ-rmEwKq8r-6OVBaWtMhikDqCZ3jYP22txdXH7SO62y8vsnjnBcp3JxU20LL3yHZPZCmK30YSHFAqIcpIWI5SmWY_I27rDpjUeu6qrGo172VK6873co9Pj83kcldG6P6B_GU6OeJqev6bP3R_fQ3auPNS5U67Vs_ILG5xWYw')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q7', 'exclave://vless?eNpVjrFKxDAcxoOTD-KakrahaTblQEFBxKHILdL8k14LvbSXpiE39hV8AhcnXfQGF1_GoWPhxnPz6uY3_L7lB993hhDiNAh5GkRhGqQf368IvSREJEAThqNYAqYkSTGXBcFc0JxzIVhMCt3o0cJ-rmEwKq8r-6OVBaWtMhikDqCZ3jYP22txdXH7SO62y8vsnjnBcp3JxU20LL3yHZPZCmK30YSHFAqIcpIWI5SmWY_I27rDpjUeu6qrGo172VK6873co9Pj83kcldG6P6B_GU6OeJqev6bP3R_fQ3auPNS5U67Vs_ILG5xWYw')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q6" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q7" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -140,9 +154,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpVjrtOwzAARS0mPqMDqyP5FeyNKpWKhDowMCO_oqZKnMh1Hu2Wf-ADWBh4TDAgJP6m6hipI2w0bL3DucsZzgUAQNAICR5hxCP-vnsF4IlKrFKBFVSYSUi5RJDHLIaU2JRwiijDxJVuH_RhvL73VuZZ-HU2aOuC9VAbF-lyeCuSMGsXXtRiYbbhbr5N5tPZCrr0uomT22qa3m9atbnJedsyYwjhXDGMRaz4l176stiDLuRr6CvfwSZbZ6WDtako_ehqcwDnx_oxACxxUf-Ak_VnRzwMj9_D5_M_XyYTdHllO53LxjaVG6U_rzJXFA')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q7', 'exclave://vless?eNpVjrtOwzAARS0mPqMDqyP5FeyNKpWKhDowMCO_oqZKnMh1Hu2Wf-ADWBh4TDAgJP6m6hipI2w0bL3DucsZzgUAQNAICR5hxCP-vnsF4IlKrFKBFVSYSUi5RJDHLIaU2JRwiijDxJVuH_RhvL73VuZZ-HU2aOuC9VAbF-lyeCuSMGsXXtRiYbbhbr5N5tPZCrr0uomT22qa3m9atbnJedsyYwjhXDGMRaz4l176stiDLuRr6CvfwSZbZ6WDtako_ehqcwDnx_oxACxxUf-Ak_VnRzwMj9_D5_M_XyYTdHllO53LxjaVG6U_rzJXFA')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q8', 'exclave://vless?eNpVjrtOwzAARS0mPqMDqyP5FeyNKpWKhDowMCO_oqZKnMh1Hu2Wf-ADWBh4TDAgJP6m6hipI2w0bL3DucsZzgUAQNAICR5hxCP-vnsF4IlKrFKBFVSYSUi5RJDHLIaU2JRwiijDxJVuH_RhvL73VuZZ-HU2aOuC9VAbF-lyeCuSMGsXXtRiYbbhbr5N5tPZCrr0uomT22qa3m9atbnJedsyYwjhXDGMRaz4l176stiDLuRr6CvfwSZbZ6WDtako_ehqcwDnx_oxACxxUf-Ak_VnRzwMj9_D5_M_XyYTdHllO53LxjaVG6U_rzJXFA')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q7" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q8" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -154,10 +168,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpVj71OwzAYRQ0TD8LqKE4cJyM_EmonIsSUpfpiO2qqxLHsxHLHvAJPwMLGgNShEvA6HSt1QYKNhI07nLPc4d5LhBBJs4AkNIjCyXT3cYbQS1IlhFDOMAhSYSop4BJAYABeUhbTKkoT1alDz0-zxtFIaOr-B3SNW9A22IIS0gfm69UOWb_cygfxWBSL3BWKXG9uivzWhas7u0xbu8hXNvP0fhPyuJSMkTDmjJeQvPG16doD8n1jsdHGY1fbulN4EJrSnR_ECV1MB-YFaB21wzf6l_F8wtPx-fO43__xnaRX0vMGnHRazZVfzvNXyQ')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q8', 'exclave://vless?eNpVj71OwzAYRQ0TD8LqKE4cJyM_EmonIsSUpfpiO2qqxLHsxHLHvAJPwMLGgNShEvA6HSt1QYKNhI07nLPc4d5LhBBJs4AkNIjCyXT3cYbQS1IlhFDOMAhSYSop4BJAYABeUhbTKkoT1alDz0-zxtFIaOr-B3SNW9A22IIS0gfm69UOWb_cygfxWBSL3BWKXG9uivzWhas7u0xbu8hXNvP0fhPyuJSMkTDmjJeQvPG16doD8n1jsdHGY1fbulN4EJrSnR_ECV1MB-YFaB21wzf6l_F8wtPx-fO43__xnaRX0vMGnHRazZVfzvNXyQ')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q9', 'exclave://vless?eNpVj71OwzAYRQ0TD8LqKE4cJyM_EmonIsSUpfpiO2qqxLHsxHLHvAJPwMLGgNShEvA6HSt1QYKNhI07nLPc4d5LhBBJs4AkNIjCyXT3cYbQS1IlhFDOMAhSYSop4BJAYABeUhbTKkoT1alDz0-zxtFIaOr-B3SNW9A22IIS0gfm69UOWb_cygfxWBSL3BWKXG9uivzWhas7u0xbu8hXNvP0fhPyuJSMkTDmjJeQvPG16doD8n1jsdHGY1fbulN4EJrSnR_ECV1MB-YFaB21wzf6l_F8wtPx-fO43__xnaRX0vMGnHRazZVfzvNXyQ')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q8" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div>
+                <div id="q9" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
@@ -168,10 +182,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgMDXQMzQ00TM11TPcIqjOwLDUMtncMjE5NUnXxMzEUtfEJDVR19LM0kI3yTTVMjU5zSzFLCUxLz_vaUnyBxDV2FiUmpiTWfKzvLxcLzM5J780RS85_-0a88IAs0jv8ApTZ6-IzETDwqzAfM9kF3O3oKxQp6TM_MTM_Mx8T3MjSxdjE6PEtFQTY8MNyRlF-blPGSpKcop1iwqKKnTLMosz8_N0S1MKTEw2V5SmfGDgALoYZCtDhlFu6Q8GFNDIBCQmvV2w5-32HWByjaG5Q2pFck5iWWpZQR5ICQCJ5FIh')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q9', 'exclave://vless?eNpTYWBgMDXQMzQ00TM11TPcIqjOwLDUMtncMjE5NUnXxMzEUtfEJDVR19LM0kI3yTTVMjU5zSzFLCUxLz_vaUnyBxDV2FiUmpiTWfKzvLxcLzM5J780RS85_-0a88IAs0jv8ApTZ6-IzETDwqzAfM9kF3O3oKxQp6TM_MTM_Mx8T3MjSxdjE6PEtFQTY8MNyRlF-blPGSpKcop1iwqKKnTLMosz8_N0S1MKTEw2V5SmfGDgALoYZCtDhlFu6Q8GFNDIBCQmvV2w5-32HWByjaG5Q2pFck5iWWpZQR5ICQCJ5FIh')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q10', 'exclave://vless?eNpTYWBgMDXQMzQ00TM11TPcIqjOwLDUMtncMjE5NUnXxMzEUtfEJDVR19LM0kI3yTTVMjU5zSzFLCUxLz_vaUnyBxDV2FiUmpiTWfKzvLxcLzM5J780RS85_-0a88IAs0jv8ApTZ6-IzETDwqzAfM9kF3O3oKxQp6TM_MTM_Mx8T3MjSxdjE6PEtFQTY8MNyRlF-blPGSpKcop1iwqKKnTLMosz8_N0S1MKTEw2V5SmfGDgALoYZCtDhlFu6Q8GFNDIBCQmvV2w5-32HWByjaG5Q2pFck5iWWpZQR5ICQCJ5FIh')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q9" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div>
+                <div id="q10" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
@@ -182,9 +196,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://hysteria2?eNpjZ2BgMLPQMzI21jM0MNYzMt1iwcLAsNTI1MQ0McnETNfM2MBM1yTNKEk3KTElRdfU1NgwzdjCJMXUNK0xJ89EryIzMT8ns7JUL7ky_2sjEDAyoAETE-PNMDZQHl2aISnpU3FJYl5KYtETJiB30tsFe95uXwcmNxuaO6RWJOcklqWWFeSBFAMAI-IuFw')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q10', 'exclave://hysteria2?eNpjZ2BgMLPQMzI21jM0MNYzMt1iwcLAsNTI1MQ0McnETNfM2MBM1yTNKEk3KTElRdfU1NgwzdjCJMXUNK0xJ89EryIzMT8ns7JUL7ky_2sjEDAyoAETE-PNMDZQHl2aISnpU3FJYl5KYtETJiB30tsFe95uXwcmNxuaO6RWJOcklqWWFeSBFAMAI-IuFw')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q11', 'exclave://hysteria2?eNpjZ2BgMLPQMzI21jM0MNYzMt1iwcLAsNTI1MQ0McnETNfM2MBM1yTNKEk3KTElRdfU1NgwzdjCJMXUNK0xJ89EryIzMT8ns7JUL7ky_2sjEDAyoAETE-PNMDZQHl2aISnpU3FJYl5KYtETJiB30tsFe95uXwcmNxuaO6RWJOcklqWWFeSBFAMAI-IuFw')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q10" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q11" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -196,9 +210,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://trojan?eNpjYmBgUAFiY1M9IwMDPUMTQz0jo627GRkYGhtLkj_k5ec9BTJyPifmJubl6pUX5-el6mUmf20EAQYQAVLBwAE0AczIMMot_cGAAhp9zctUyw0Ng1NXMQG5U94u2PN2-zowuVlBwdDCIbUiOSexLLWsIA-kHAAd_zBt')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q11', 'exclave://trojan?eNpjYmBgUAFiY1M9IwMDPUMTQz0jo627GRkYGhtLkj_k5ec9BTJyPifmJubl6pUX5-el6mUmf20EAQYQAVLBwAE0AczIMMot_cGAAhp9zctUyw0Ng1NXMQG5U94u2PN2-zowuVlBwdDCIbUiOSexLLWsIA-kHAAd_zBt')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q12', 'exclave://trojan?eNpjYmBgUAFiY1M9IwMDPUMTQz0jo627GRkYGhtLkj_k5ec9BTJyPifmJubl6pUX5-el6mUmf20EAQYQAVLBwAE0AczIMMot_cGAAhp9zctUyw0Ng1NXMQG5U94u2PN2-zowuVlBwdDCIbUiOSexLLWsIA-kHAAd_zBt')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q11" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q12" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -210,9 +224,9 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgsDTVszDVMzIxA-LNuxkZGJammaRaGJknpeomGRqa6JqYpljqWpqYmemmJVkmGRgZJaeaGBrl5ec9LS7IySzJKCn50KhfAaIYEktL3jcWpSYChX8Wl6dkFpfoJRYU5KTqJee_XZPtF-mfnJ1dmBvgmOkbnG2QGOpa7G3mHxqVYVGZ5xWYamFikphhZGmaW1mcmJiUlJyc8iQ5oyg_9ylDI8gyBg6gW8GMDKPc0h8MKKCRCUhMebtgz9vtO8DkKgUFQwuH1IrknMSy1LKCPJAiAMCLUYE')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q12', 'exclave://vless?eNpTYWBgsDTVszDVMzIxA-LNuxkZGJammaRaGJknpeomGRqa6JqYpljqWpqYmemmJVkmGRgZJaeaGBrl5ec9LS7IySzJKCn50KhfAaIYEktL3jcWpSYChX8Wl6dkFpfoJRYU5KTqJee_XZPtF-mfnJ1dmBvgmOkbnG2QGOpa7G3mHxqVYVGZ5xWYamFikphhZGmaW1mcmJiUlJyc8iQ5oyg_9ylDI8gyBg6gW8GMDKPc0h8MKKCRCUhMebtgz9vtO8DkKgUFQwuH1IrknMSy1LKCPJAiAMCLUYE')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q13', 'exclave://vless?eNpTYWBgsDTVszDVMzIxA-LNuxkZGJammaRaGJknpeomGRqa6JqYpljqWpqYmemmJVkmGRgZJaeaGBrl5ec9LS7IySzJKCn50KhfAaIYEktL3jcWpSYChX8Wl6dkFpfoJRYU5KTqJee_XZPtF-mfnJ1dmBvgmOkbnG2QGOpa7G3mHxqVYVGZ5xWYamFikphhZGmaW1mcmJiUlJyc8iQ5oyg_9ylDI8gyBg6gW8GMDKPc0h8MKKCRCUhMebtgz9vtO8DkKgUFQwuH1IrknMSy1LKCPJAiAMCLUYE')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q12" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+                <div id="q13" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
             </div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
@@ -224,10 +238,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://vless?eNpTYWBgMDbUMzfTMzQy0jPZvpuRgWGpYaKheVpSipluoqlJmq6JqVmyrkWquaGuqZGFkYWlcapRkpllXn7e05LkDyCqsbEoNTEns-RngYleRkpOfnlxCVAgVy85_-2a3JDSkPjM4gJjQ7P4UmMz1yovo9JCp5TkLLMwZxcLn-BCY8vcEH-jsqIqX6DBKeYploZmRqZGKUYGm5MzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0PcgFDBlGuaU_GFBAIxOQmPJ2wZ6327eCyY0KCoYWDqkVyTmJZallBXkgRQCou1WY')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q13', 'exclave://vless?eNpTYWBgMDbUMzfTMzQy0jPZvpuRgWGpYaKheVpSipluoqlJmq6JqVmyrkWquaGuqZGFkYWlcapRkpllXn7e05LkDyCqsbEoNTEns-RngYleRkpOfnlxCVAgVy85_-2a3JDSkPjM4gJjQ7P4UmMz1yovo9JCp5TkLLMwZxcLn-BCY8vcEH-jsqIqX6DBKeYploZmRqZGKUYGm5MzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0PcgFDBlGuaU_GFBAIxOQmPJ2wZ6327eCyY0KCoYWDqkVyTmJZallBXkgRQCou1WY')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q14', 'exclave://vless?eNpTYWBgMDbUMzfTMzQy0jPZvpuRgWGpYaKheVpSipluoqlJmq6JqVmyrkWquaGuqZGFkYWlcapRkpllXn7e05LkDyCqsbEoNTEns-RngYleRkpOfnlxCVAgVy85_-2a3JDSkPjM4gJjQ7P4UmMz1yovo9JCp5TkLLMwZxcLn-BCY8vcEH-jsqIqX6DBKeYploZmRqZGKUYGm5MzivJznzJUlOQU6xYVFFXolmUWZ-bn6ZamFJiYbK4oTfnAwAF0PcgFDBlGuaU_GFBAIxOQmPJ2wZ6327eCyY0KCoYWDqkVyTmJZallBXkgRQCou1WY')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q13" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div>
+                <div id="q14" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div>
             <div class="server-card bg-white border border-gray-100 p-6 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all mb-6 text-right">
                 <div class="flex justify-between items-center mb-4">
                     <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase italic tracking-tighter">EXCLAVE PREMIUM</span>
@@ -238,10 +252,10 @@
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <button onclick="copyText('exclave://trojan?eNpjYmBgUAFic3M9EyM9Y0s9Q4MdvxUYGBobyz975-cm6kaG6AU4ursG67mkfpulX1IUkpqTml6UmPt2wZ6321eAyc3aDuGJeenOiZlGDCDQWJKDqbcRBBhARF5-3lMGDqA6MCPDKLf0BwMKaLQosom2VM8xy3D0V7aICnzJBBScDLZqNZhcp2Bo4ZBakZyTWJZaVpAH0gMA2ABFqA')" class="py-4 bg-blue-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-blue-100 active:scale-95 transition-all">نسخ الإعدادات</button>
-                    <button onclick="toggleQR('q14', 'exclave://trojan?eNpjYmBgUAFic3M9EyM9Y0s9Q4MdvxUYGBobyz975-cm6kaG6AU4ursG67mkfpulX1IUkpqTml6UmPt2wZ6321eAyc3aDuGJeenOiZlGDCDQWJKDqbcRBBhARF5-3lMGDqA6MCPDKLf0BwMKaLQosom2VM8xy3D0V7aICnzJBBScDLZqNZhcp2Bo4ZBakZyTWJZaVpAH0gMA2ABFqA')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
+                    <button onclick="toggleQR('q15', 'exclave://trojan?eNpjYmBgUAFic3M9EyM9Y0s9Q4MdvxUYGBobyz975-cm6kaG6AU4ursG67mkfpulX1IUkpqTml6UmPt2wZ6321eAyc3aDuGJeenOiZlGDCDQWJKDqbcRBBhARF5-3lMGDqA6MCPDKLf0BwMKaLQosom2VM8xy3D0V7aICnzJBBScDLZqNZhcp2Bo4ZBakZyTWJZaVpAH0gMA2ABFqA')" class="py-4 bg-slate-900 text-white rounded-2xl font-bold text-xs active:scale-95 transition-all">QR CODE 🔳</button>
                 </div>
-                <div id="q14" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
-            </div><div class="flex justify-center my-8"><ins class="g2fb0b4c321 rounded-3xl overflow-hidden" data-domain="//data527.click" data-affquery="/e3435b2a507722939b6f/2fb0b4c321/?placementName=default" style="display:inline-block;width:300px;height:250px"><script src="//data527.click/js/responsive.js" async></script></ins></div></div>
+                <div id="q15" class="hidden mt-5 p-5 bg-white rounded-3xl flex justify-center border-2 border-dashed border-blue-50 animate-fade-in"></div>
+            </div></div>
 
         <div class="mt-24 space-y-12 bg-white p-10 rounded-[3rem] border border-gray-100 shadow-sm text-right transition-all hover:shadow-md">
             
